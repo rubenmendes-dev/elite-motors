@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="118 603 1280 188" role="img" aria-label="Contorno dourado superior de um automóvel desportivo">
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="30%">
+      <stop offset="0%" stop-color="#b17b26"/>
+      <stop offset="15%" stop-color="#f1c665"/>
+      <stop offset="38%" stop-color="#ffe6a0"/>
+      <stop offset="57%" stop-color="#d1a34a"/>
+      <stop offset="78%" stop-color="#f4cc70"/>
+      <stop offset="100%" stop-color="#9c6c26"/>
+    </linearGradient>
+    <linearGradient id="goldSubtle" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a8762c"/>
+      <stop offset="40%" stop-color="#efc976"/>
+      <stop offset="76%" stop-color="#d7aa51"/>
+      <stop offset="100%" stop-color="#8d6425"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Front bonnet, sweeping roof, fastback and rear deck: the chosen upper-only silhouette -->
+    <path d="M 143,783
+             C 211,749 287,714 367,706
+             C 429,699 469,700 518,708
+             C 569,688 633,647 698,628
+             C 746,612 792,615 848,619
+             C 933,626 1034,651 1125,677
+             C 1197,696 1249,697 1299,707
+             C 1333,719 1354,749 1372,775"
+          stroke="url(#gold)" stroke-width="5"/>
+    <!-- Top roof highlight, close to original gold crest -->
+    <path d="M 521,700
+             C 597,663 654,633 712,622
+             C 781,608 829,614 899,624
+             C 997,638 1105,675 1192,692"
+          stroke="#ffdf8b" stroke-width="2.1" opacity=".9"/>
+    <!-- Windscreen and flowing side window line -->
+    <path d="M 577,713
+             C 621,683 671,647 712,638
+             C 742,630 770,631 808,633
+             C 893,636 963,660 1026,675
+             C 1038,681 999,690 959,695
+             C 858,706 741,712 626,717"
+          stroke="url(#goldSubtle)" stroke-width="2.5"/>
+    <!-- Shoulder line: traces only the high waist, no wheels or body -->
+    <path d="M 476,706
+             C 524,706 553,713 594,729
+             C 633,739 692,720 770,714
+             C 859,709 961,699 1070,693
+             C 1146,688 1214,699 1277,722"
+          stroke="url(#gold)" stroke-width="2.7" opacity=".9"/>
+    <!-- Tiny, restrained mirror detail -->
+    <path d="M 618,699 C 632,688 655,680 670,682 C 685,682 688,687 688,690 C 668,689 649,690 632,699 Z"
+          stroke="url(#goldSubtle)" stroke-width="1.8"/>
+    <!-- Signature rear spoiler -->
+    <path d="M 1244,695 C 1271,689 1306,689 1330,688
+             C 1312,693 1300,702 1299,708
+             C 1304,716 1325,734 1335,746"
+          stroke="url(#gold)" stroke-width="3"/>
+    <!-- Whisper-thin upper back window edge -->
+    <path d="M 902,628 C 900,648 896,661 891,675" stroke="#9f782e" stroke-width="1.3" opacity=".6"/>
+  </g>
+</svg>
